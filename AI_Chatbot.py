@@ -13,7 +13,7 @@ while True:
     elif user_input == "how are you":
         print("Bot: I'm doing great! Thanks for asking.")
 
-    elif user_input == "thanks":
+    elif user_input in ["thanks","thank you","thx"]:
         print("Bot: You're welcome!")
 
     elif user_input == "good morning":
