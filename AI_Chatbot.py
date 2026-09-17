@@ -1,7 +1,7 @@
 while True:
-    user_input = input("You: ")
+    user_input = input("You: ").lower()
 
-    if user_input == "Exit":
+    if user_input == "exit":
         break
 
     elif user_input == "hello":
