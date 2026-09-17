@@ -11,5 +11,8 @@ while True:
         print("Bot: Goodbye! See you later.") 
 
     elif user_input == "how are you":
-        print("Bot: I'm doing great! Thanks for asking.")       
+        print("Bot: I'm doing great! Thanks for asking.")
+
+    else:
+        print("Sorry, I dont understand that yet.")           
 
