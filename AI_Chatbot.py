@@ -3,3 +3,7 @@ while True:
 
     if user_input == "Exit":
         break
+
+    elif user_input == "hello":
+        print("Bot: Hello! How can I help you?")
+
