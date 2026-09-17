@@ -4,7 +4,7 @@ while True:
     if user_input == "exit":
         break
 
-    elif user_input == "hello":
+    elif user_input in ["hello", "hi", "hey"]:
         print("Bot: Hello! How can I help you?")
 
     elif user_input == "bye":
