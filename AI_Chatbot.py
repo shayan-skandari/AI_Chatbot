@@ -7,7 +7,7 @@ while True:
     elif user_input in ["hello", "hi", "hey"]:
         print("Bot: Hello! How can I help you?")
 
-    elif user_input == "bye":
+    elif user_input in ["bye","goodbye","see you","see ya"]:
         print("Bot: Goodbye! See you later.") 
 
     elif user_input == "how are you":
