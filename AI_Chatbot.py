@@ -1,3 +1,5 @@
+name = None
+
 while True:
     user_input = input("You: ").lower()
 
@@ -5,7 +7,11 @@ while True:
         break
 
     elif user_input in ["hello", "hi", "hey"]:
-        print("Bot: Hello! How can I help you?")
+        if name is not None:
+            print(f"hello {name}, how can i help you?")
+        else:
+            print("hello! how can i help you?")    
+
 
     elif user_input in ["bye","goodbye","see you","see ya"]:
         print("Bot: Goodbye! See you later.") 
