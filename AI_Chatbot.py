@@ -32,7 +32,15 @@ while True:
         name = user_input.replace("my name is", "")
         print(f"Bot: Nice to meet you, {name}!")
 
+    elif user_input == "what is my name?":
+        if name is not None:
 
+            print(f"your name is {name}!")
+
+        else:
+            print("Bot: i don't know your name yet.")    
+
+        
     else:
         print("Sorry, I dont understand that yet.")
 
