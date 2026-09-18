@@ -63,7 +63,7 @@ while True:
 
     elif user_input.startswith("my name is "):
         parts =  user_input.split()
-        name = parts[3].strip()
+        name = " ".join(parts[3:]).strip()
 
         print(f"Bot: Nice to meet you, {name}!")
 
