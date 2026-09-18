@@ -20,7 +20,12 @@ while True:
         print("Bot: Good morning! Have a great day!")
 
     elif user_input == "good night":
-        print("Bot: Good night! Sleep well!")            
+        print("Bot: Good night! Sleep well!")
+
+    elif user_input.startswith("my name is "):
+        name = user_input.replace("my name is", "")
+        print(f"Bot: Nice to meet you, {name}!")
+
 
     else:
         print("Sorry, I dont understand that yet.")
